@@ -1,0 +1,14 @@
+# ignore node/grunt dependency directories
+node_modules/
+
+src
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+#*.zip
