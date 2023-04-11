@@ -1,26 +1,26 @@
 {
-    "sections" : {
+    "sections": {
         "template": {
-            "type" : "template-article",
+            "type": "template-article",
             "blocks": {
                 "title": {
-                    "type" : "article_title"
+                    "type": "article_title"
                 },
-                "author" : {
-                    "type" : "article_author"
+                "author": {
+                    "type": "article_author"
                 },
                 "published_date": {
-                    "type" : "article_published_date"
+                    "type": "article_published_date"
                 },
-                "image": {
-                    "type" : "featured_image"
+                "thumbnail": {
+                    "type": "featured_image"
                 },
-                "content" : {
-                    "type" : "article_content"
+                "content": {
+                    "type": "article_content"
                 }
             },
-            "block_order": ["title", "author", "published_date", "image", "content"]
+            "block_order": ["thumbnail","title","published_date","author","content"]
         }
     },
-    "order" : ["template"]
+    "order": ["template"]
 }
