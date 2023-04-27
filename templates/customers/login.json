@@ -1,8 +1,21 @@
 {
+<<<<<<< HEAD
     "sections" : {
         "template" : {
             "type" : "template-customers-login"
         }
     },
     "order": ["template"]
+=======
+  "sections": {
+    "template": {
+      "type": "template-customers-login",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "template"
+  ]
+>>>>>>> eb36db2176f5bcc53291e9ad6a8c2ccbcca05945
 }
