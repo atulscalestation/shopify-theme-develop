@@ -1,8 +1,12 @@
 {
-    "section" : {
-        "template" : {
-            "type" : "template-customers-login"
-        }
-    },
-    "order": ["template"]
+  "sections": {
+    "template": {
+      "type": "template-customers-login",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "template"
+  ]
 }
